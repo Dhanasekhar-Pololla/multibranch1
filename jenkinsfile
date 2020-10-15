@@ -1,9 +1,9 @@
 pipeline{
- agent {label ,"master"}
+ agent {label ,"main"}
  stages{
     stage("scm"){
       steps{
-      echo   "this is hello world!"
+      echo   "this  hello world!"
      }
     }
  }
